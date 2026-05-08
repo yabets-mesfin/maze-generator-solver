@@ -457,6 +457,7 @@ int main(int argc, char* argv[]) {
                   << "  Blue (x) = explored dead ends\n\n"
                   << RESET;
     } else {
+        
         std::cout << BOLD << RED
                   << "\n  ===  NO SOLUTION FOUND  ===\n\n"
                   << RESET;
